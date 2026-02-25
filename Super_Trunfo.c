@@ -48,8 +48,8 @@ int main(){
     printf("Digite o Número de Pontos Turísticos: ");
     scanf("%d", &numpontostur2);
 
-    densidadep1 = populacao / area;
-    densidadep2 = populacao2 / area2;
+    densidadep1 = (float) populacao / area;
+    densidadep2 = (float) populacao2 / area2;
     pibPerCap1 = (float) pib / populacao;
     pibPerCap2 = (float) pib2 / populacao2;
 
